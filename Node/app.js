@@ -51,4 +51,8 @@ bot.on('conversationUpdate', function (activity) {
 
 bot.dialog('/', function (session) {
     session.send('You said that:' + session.message.text);
+<<<<<<< HEAD:Node/app.js
 });
+=======
+});
+>>>>>>> 8c8fed025c9ec3a510b5e1194b5dbeae62f7a24f:app.js
