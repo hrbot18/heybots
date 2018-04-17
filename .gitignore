@@ -1,4 +1,4 @@
 node_modules/
-.env
+Node/.env
 *.js.map
 package-lock.json
