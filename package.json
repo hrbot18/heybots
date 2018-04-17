@@ -2,10 +2,11 @@
   "name": "hello-chatconnector",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "Node/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "azure-publish": "node publish.js"
+    "azure-publish": "node publish.js",
+    "start": "node Node/app.js"
   },
   "author": "",
   "license": "ISC",
