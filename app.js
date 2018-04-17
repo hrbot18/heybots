@@ -50,5 +50,5 @@ bot.on('conversationUpdate', function (activity) {
 });
 
 bot.dialog('/', function (session) {
-    session.send('You said ' + session.message.text);
+    session.send('You said that:' + session.message.text);
 });
